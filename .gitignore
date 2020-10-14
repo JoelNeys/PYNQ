@@ -41,4 +41,4 @@ __pycache__/
 GNUmakefile
 user.props
 sdbuild/tools/*
-*.DS_Store
+.DS_Store
