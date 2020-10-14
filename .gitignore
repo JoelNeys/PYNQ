@@ -6,7 +6,7 @@
 *.dis
 *.exe
 
-# Packages 
+# Packages
 ############
 
 # Windows Thumbnail
@@ -40,3 +40,5 @@ __pycache__/
 ######################
 GNUmakefile
 user.props
+sdbuild/tools/*
+*.DS_Store
