@@ -34,12 +34,10 @@ pyeda==0.28.0
 pyrsistent==0.15.4
 rise==5.2.0
 sphinx-rtd-theme==0.4.3
-statsmodels==0.9.0
 tqdm==4.32.2
 Werkzeug==0.15.6
 widgetsnbextension==3.5.1
 wurlitzer==1.0.3
-spidev==3.4
 EOT
 
 python3.6 -m pip install -r requirements.txt
