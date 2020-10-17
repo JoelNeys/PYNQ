@@ -40,6 +40,7 @@ tqdm==4.32.2
 Werkzeug==0.15.6
 widgetsnbextension==3.5.1
 wurlitzer==1.0.3
+spidev==3.4
 EOT
 
 python3.6 -m pip install -r requirements.txt
