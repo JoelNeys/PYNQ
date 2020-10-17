@@ -5,6 +5,7 @@
 		ethernet@e000b000 {
 			phy-handle = <&ethernet_phy>;
 			ethernet_phy: ethernet-phy@3{
+			    comptaible = "micrel,ksz9031";
                 rxc-skew-ps = <1860>;
                 rxdv-skew-ps = <420>;
                 rxd0-skew-ps = <420>;
