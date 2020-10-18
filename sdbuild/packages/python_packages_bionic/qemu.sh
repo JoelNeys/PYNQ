@@ -38,6 +38,12 @@ tqdm==4.32.2
 Werkzeug==0.15.6
 widgetsnbextension==3.5.1
 wurlitzer==1.0.3
+ipywebrtc==0.5.0
+future==0.18.2
+bottle==0.12.18
+glances==3.1.5
+spidev=3.5
+i2cdev-1.2.4
 EOT
 
 python3.6 -m pip install -r requirements.txt

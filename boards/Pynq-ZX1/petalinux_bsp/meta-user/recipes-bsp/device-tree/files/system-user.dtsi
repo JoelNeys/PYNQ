@@ -5,7 +5,21 @@
 		ethernet@e000b000 {
 			phy-handle = <&ethernet_phy>;
 			ethernet_phy: ethernet-phy@3{
-				reg = <3>;
+			    comptaible = "micrel,ksz9031";
+                rxc-skew-ps = <1860>;
+                rxdv-skew-ps = <420>;
+                rxd0-skew-ps = <420>;
+                rxd1-skew-ps = <420>;
+                rxd2-skew-ps = <420>;
+                rxd3-skew-ps = <420>;
+
+                txc-skew-ps = <1860>;
+                txen-skew-ps = <420>;
+                txd0-skew-ps = <420>;
+                txd1-skew-ps = <420>;
+                txd2-skew-ps = <420>;
+                txd3-skew-ps = <420>;
+   				reg = <3>;
 			};
 		};
 	};
