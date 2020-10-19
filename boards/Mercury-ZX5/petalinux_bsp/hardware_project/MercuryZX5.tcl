@@ -1,6 +1,6 @@
 
 ################################################################
-# This is a generated script based on design: Mercury-ZX5
+# This is a generated script based on design: MercuryZX5
 #
 # Though there are limitations about the generated script,
 # the main purpose of this utility is to make learning
@@ -35,21 +35,21 @@ if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
 ################################################################
 
 # To test this script, run the following commands from Vivado Tcl console:
-# source Mercury-ZX5.tcl
+# source MercuryZX5.tcl
 
 # If there is no project opened, this script will create a
 # project, but make sure you do not have an existing project
-# <./Mercury-ZX5/Mercury-ZX5.xpr> in the current working folder.
+# <./MercuryZX5/MercuryZX5.xpr> in the current working folder.
 
 set list_projs [get_projects -quiet]
 if { $list_projs eq "" } {
-   create_project Mercury-ZX5 Mercury-ZX5 -part xc7z015clg485-2
+   create_project MercuryZX5 MercuryZX5 -part xc7z015clg485-2
 }
 
 
 # CHANGE DESIGN NAME HERE
 variable design_name
-set design_name Mercury-ZX5
+set design_name MercuryZX5
 
 # If you do not already have an existing IP Integrator design open,
 # you can create a design using the following command:

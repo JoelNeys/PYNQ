@@ -1,5 +1,5 @@
-overlay_name := Mercury-ZX5
-design_name := Mercury-ZX5
+overlay_name := MercuryZX5
+design_name := MercuryZX5
 
 all: bit
 	@echo

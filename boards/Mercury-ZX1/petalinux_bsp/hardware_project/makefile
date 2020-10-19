@@ -1,5 +1,5 @@
-overlay_name := pynqZX1
-design_name := pynqZX1
+overlay_name := MercuryZX1
+design_name := MercuryZX1
 
 all: bit
 	@echo
