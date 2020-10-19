@@ -9,7 +9,7 @@ __email__ = "joel.neys.ext@imec.be"
 
 
 class BaseOverlay(pynq.Overlay):
-    """ The Base overlay for the S2I MVDK-ZX5
+    """ The Base overlay for the Digilent Zybo
 
     This overlay exposes the following attributes:
 
